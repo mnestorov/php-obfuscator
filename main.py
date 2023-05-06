@@ -4,7 +4,7 @@ import logging
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
-from config import (log_filename, YELLOW, BLUE, GREEN, RED, RESET)
+from config import (log_filename, YELLOW, BLUE, GREEN, RED, RESET, YAKPRO)
 from subprocess import call
 
 # Configure logging
@@ -20,8 +20,9 @@ def obfuscate_php(input_file, create_backup, output_directory):
         output_file = os.path.join(output_directory, f"obfuscated_{os.path.basename(input_file)}")
         logging.info(f"Obfuscating {input_file}")
 
-        call(["/home/mnestorov/AutomationScripts/ObfuscatesPhpCode/yakpro-po/yakpro-po.php", "-o", output_file, input_file])
-
+        command = YAKPRO + [output_file, input_file]
+        call(command)
+        
         print(f"{GREEN}Obfuscated file saved as {output_file}{RESET}")
         logging.info(f"Obfuscated {input_file} successfully")
 

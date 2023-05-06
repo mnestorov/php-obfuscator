@@ -2,7 +2,7 @@
 
 ## Overview
 
-PHP Obfuscator is a command-line tool build with Python to obfuscate PHP source code files using [YAK Pro]((https://github.com/pk-fr/yakpro-po)) and [PHP-Parser](https://github.com/nikic/PHP-Parser/tree/4.x/) php libraries. 
+PHP Obfuscator is a command-line tool build with Python to obfuscate PHP source code files using [YAK Pro](https://github.com/pk-fr/yakpro-po) and [PHP-Parser](https://github.com/nikic/PHP-Parser/tree/4.x/) php libraries. 
 
 The tool aims to protect the intellectual property of your PHP project by making it more difficult for others to understand or reverse-engineer your code. 
 
