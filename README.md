@@ -1,5 +1,7 @@
 # PHP Obfuscator
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://bmc.link/mnestorov)
+
 ## Overview
 
 PHP Obfuscator is a command-line tool build with Python to obfuscate PHP source code files using [YAK Pro](https://github.com/pk-fr/yakpro-po) and [PHP-Parser](https://github.com/nikic/PHP-Parser/tree/4.x/) php libraries. 
@@ -181,6 +183,27 @@ bash start.sh
 ## Troubleshooting
 
 If you encounter issues after obfuscating your PHP project, you may need to revert your files to the original (non-obfuscated) versions and reevaluate your obfuscation strategy. Always keep backups of your original code before applying obfuscation, as it can be difficult or impossible to reverse the process and recover the original code.
+
+## TODO
+
+- **_Custom obfuscation options:_** Allow users to choose from different obfuscation options (e.g., obfuscating variable names, function names, or class names) or combine multiple options.
+- **_File filters:_** Add filters to include or exclude specific files based on their names or extensions.
+- **_Preserve original file structure:_** When obfuscating an entire project directory, recreate the original directory structure in the output folder, maintaining the same hierarchy.
+- **_Command-line arguments:_** Implement command-line argument parsing to allow users to run the script with different configurations without manually editing the code.
+
+## Support My **_PHP Obfuscator_** Project
+
+I have created an advanced PHP obfuscator script to help you protect your valuable code from unauthorized access and plagiarism. This obfuscator is designed to be easy to use, efficient, and highly configurable, offering various obfuscation options and features to suit your needs.
+
+As the sole developer of this project, I am committed to continuously improving and expanding it with new features, enhancements, and bug fixes. However, maintaining and developing this project takes a significant amount of time and resources.
+
+That's why I kindly ask you to consider supporting my efforts by donating to the project. Your generous contributions will enable me to dedicate more time and resources to making this PHP obfuscator even better and more versatile. Your support will also help me keep the project free and accessible to all PHP developers around the world.
+
+To show your appreciation and support, please visit my Buy Me a Coffee page by clicking the link below. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://bmc.link/mnestorov)
+
+Thank you for considering a donation, and I appreciate your support in helping me make this PHP obfuscator the best it can be.
 
 ## License
 
