@@ -1,6 +1,14 @@
 # PHP Obfuscator
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://bmc.link/mnestorov)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+## Support The Project
+
+Your support will help me keep the project free and accessible to all PHP developers around the world.
+
+Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov)
 
 ## Overview
 
@@ -201,7 +209,7 @@ That's why I kindly ask you to consider supporting my efforts by donating to the
 
 To show your appreciation and support, please visit my Buy Me a Coffee page by clicking the link below. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://bmc.link/mnestorov)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov)
 
 Thank you for considering a donation, and I appreciate your support in helping me make this PHP obfuscator the best it can be.
 
