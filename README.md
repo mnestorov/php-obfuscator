@@ -4,9 +4,7 @@
 
 ## Support The Project
 
-Your support will help me keep the project free and accessible to all PHP developers around the world.
-
-Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
+Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov)
 
@@ -192,26 +190,30 @@ bash start.sh
 
 If you encounter issues after obfuscating your PHP project, you may need to revert your files to the original (non-obfuscated) versions and reevaluate your obfuscation strategy. Always keep backups of your original code before applying obfuscation, as it can be difficult or impossible to reverse the process and recover the original code.
 
-## TODO
+## TODOs
 
 - **_Custom obfuscation options:_** Allow users to choose from different obfuscation options (e.g., obfuscating variable names, function names, or class names) or combine multiple options.
 - **_File filters:_** Add filters to include or exclude specific files based on their names or extensions.
 - **_Preserve original file structure:_** When obfuscating an entire project directory, recreate the original directory structure in the output folder, maintaining the same hierarchy.
 - **_Command-line arguments:_** Implement command-line argument parsing to allow users to run the script with different configurations without manually editing the code.
 
-## Support My **_PHP Obfuscator_** Project
+## Support The Project
 
-I have created an advanced PHP obfuscator script to help you protect your valuable code from unauthorized access and plagiarism. This obfuscator is designed to be easy to use, efficient, and highly configurable, offering various obfuscation options and features to suit your needs.
+If you find this script helpful and would like to support its development and maintenance, please consider the following options:
 
-As the sole developer of this project, I am committed to continuously improving and expanding it with new features, enhancements, and bug fixes. However, maintaining and developing this project takes a significant amount of time and resources.
+- **_Star the repository_**: If you're using this script from a GitHub repository, please give the project a star on GitHub. This helps others discover the project and shows your appreciation for the work done.
 
-That's why I kindly ask you to consider supporting my efforts by donating to the project. Your generous contributions will enable me to dedicate more time and resources to making this PHP obfuscator even better and more versatile. Your support will also help me keep the project free and accessible to all PHP developers around the world.
+- **_Share your feedback_**: Your feedback, suggestions, and feature requests are invaluable to the project's growth. Please open issues on the GitHub repository or contact the author directly to provide your input.
 
-To show your appreciation and support, please visit my Buy Me a Coffee page by clicking the link below. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
+- **_Contribute_**: You can contribute to the project by submitting pull requests with bug fixes, improvements, or new features. Make sure to follow the project's coding style and guidelines when making changes.
+
+- **_Spread the word_**: Share the project with your friends, colleagues, and social media networks to help others benefit from the script as well.
+
+- **_Donate_**: Show your appreciation with a small donation. Your support will help me maintain and enhance the script. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov)
 
-Thank you for considering a donation, and I appreciate your support in helping me make this PHP obfuscator the best it can be.
+Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
 ## License
 
