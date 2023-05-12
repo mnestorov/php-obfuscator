@@ -6,7 +6,7 @@
 
 Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://bmc.link/mnestorov) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/mnestorov)
 
 ## Overview
 
