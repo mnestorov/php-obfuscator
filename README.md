@@ -1,3 +1,5 @@
+![PHP_Obfuscator](images/php-obfuscator.jpg)
+
 # PHP Obfuscator
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
