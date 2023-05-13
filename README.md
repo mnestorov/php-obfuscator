@@ -1,4 +1,4 @@
-![PHP_Obfuscator](images/php-obfuscator.jpg)
+![PHP_Obfuscator](images/php-obfuscator.png)
 
 # PHP Obfuscator
 
