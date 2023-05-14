@@ -217,6 +217,8 @@ If you find this script helpful and would like to support its development and ma
 
 Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
+---
+
 ## License
 
 This project is released under the MIT License.
