@@ -171,6 +171,7 @@ bash start.sh
     - Output directory path
     - File or directory paths to exclude
     - Whether to create backups of original PHP files
+    - Choose from different obfuscation options (e.g., obfuscating variable names, function names, or class names) or combine multiple options
 
 4. After the obfuscation process is completed, you can find the obfuscated files in the specified output directory.
 
