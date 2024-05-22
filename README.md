@@ -8,7 +8,13 @@
 
 Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
-[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://buy.stripe.com/7sI6qagF4cQV4xy5kk) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/mnestorov)
+---
+
+- LTC: `LPV7EqTdEYjnFsBwaCtKuAB2XajMgxEh82`
+- USDT (BEP20): `0x4603b2b4e2f2a699cb7a65f6f564bbd5b91970cd`
+- USDT (TRC20): `TGMQjS7HHwXTtLdpgYdHc2GZZGEcGLrhca`
+
+---
 
 ## Overview
 
@@ -214,7 +220,13 @@ If you find this script helpful and would like to support its development and ma
 
 - **_Donate_**: Show your appreciation with a small donation. Your support will help me maintain and enhance the script. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
 
-[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://buy.stripe.com/7sI6qagF4cQV4xy5kk) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/mnestorov)
+---
+
+- LTC: `LPV7EqTdEYjnFsBwaCtKuAB2XajMgxEh82`
+- USDT (BEP20): `0x4603b2b4e2f2a699cb7a65f6f564bbd5b91970cd`
+- USDT (TRC20): `TGMQjS7HHwXTtLdpgYdHc2GZZGEcGLrhca`
+
+---
 
 Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
 
