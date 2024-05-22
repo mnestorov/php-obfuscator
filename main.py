@@ -36,6 +36,9 @@ def obfuscate_php(input_file, obfuscation_options, create_backup, output_directo
         logging.info(f"Created backup: {backup_file}")
 
     try:
+        # Create the directory if it doesn't exist
+        os.makedirs(output_directory, exist_ok=True)
+
         output_file = os.path.join(output_directory, f"obfuscated_{os.path.basename(input_file)}")
         logging.info(f"Obfuscating {input_file}")
 
@@ -68,7 +71,11 @@ def process_directory(directory, obfuscation_options, exclude_list, create_backu
                     logging.info(f"Skipping {input_file}: excluded")
                     continue
 
-                file_list.append((input_file, obfuscation_options, create_backup, output_directory))
+                # Calculate the target directory in the output structure
+                relative_path = os.path.relpath(root, directory)
+                target_directory = os.path.join(output_directory, relative_path)
+
+                file_list.append((input_file, obfuscation_options, create_backup, target_directory))
 
     progress_bar = tqdm(total=len(file_list), desc="Obfuscating", unit="file")
 
