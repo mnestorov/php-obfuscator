@@ -196,8 +196,8 @@ If you encounter issues after obfuscating your PHP project, you may need to reve
 ## TODOs
 
 - [x] **_Custom obfuscation options:_** ~~Allow users to choose from different obfuscation options (e.g., obfuscating variable names, function names, or class names) or combine multiple options.~~
+- [x] **_Preserve original file structure:_** ~~When obfuscating an entire project directory, recreate the original directory structure in the output folder, maintaining the same hierarchy~~.
 - **_File filters:_** Add filters to include or exclude specific files based on their names or extensions.
-- **_Preserve original file structure:_** When obfuscating an entire project directory, recreate the original directory structure in the output folder, maintaining the same hierarchy.
 - **_Command-line arguments:_** Implement command-line argument parsing to allow users to run the script with different configurations without manually editing the code.
 
 ## Support The Project
