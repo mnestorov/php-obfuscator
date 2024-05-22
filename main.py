@@ -54,7 +54,7 @@ def obfuscate_file(args):
     obfuscate_php(input_file, obfuscation_options, create_backup, output_directory)
 
 def process_directory(directory, obfuscation_options, exclude_list, create_backup, output_directory, max_workers=4):
-    total_files = sum([len(files) for r, d, files in os.walk(directory) if any(f.lower().endswith('.php') for f in files)])
+    total_files = sum(len(files) for _, _, files in os.walk(directory) if any(f.lower().endswith(".php") for f in files))
 
     progress_bar = tqdm(total=total_files, desc="Obfuscating", unit="file")
 
@@ -99,6 +99,10 @@ def main():
     print(f"{GREEN}Welcome to the PHP Obfuscator!{RESET}")
     print(f"{GREEN}Follow the prompts to obfuscate your PHP files.\n{RESET}")
 
+    print(f"{GREEN}Choose the mode for obfuscating your PHP files:{RESET}")
+    print(f"{BLUE}1: Single file{RESET}")
+    print(f"{BLUE}2: Multiple files{RESET}")
+    print(f"{BLUE}3: Entire project directory{RESET}")
     mode = validate_mode_input(input(f"{GREEN}Enter the mode number (1/2/3): {RESET}"))
 
     output_directory = input(f"{GREEN}Enter the output directory path: {RESET}")
