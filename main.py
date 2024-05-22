@@ -96,8 +96,8 @@ def validate_directory_input(directory_path):
         sys.exit(1)
 
 def main():
-    print(f"{GREEN}Welcome to the PHP Obfuscator!{RESET}")
-    print(f"{GREEN}Follow the prompts to obfuscate your PHP files.\n{RESET}")
+    print(f"{YELLOW}Welcome to the PHP Obfuscator!{RESET}")
+    print(f"{YELLOW}Follow the prompts to obfuscate your PHP files.\n{RESET}")
 
     print(f"{GREEN}Choose the mode for obfuscating your PHP files:{RESET}")
     print(f"{BLUE}1: Single file{RESET}")
