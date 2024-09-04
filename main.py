@@ -4,8 +4,9 @@ import logging
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
-from config import log_filename, YELLOW, BLUE, GREEN, RED, RESET, YAKPRO
+from config import (log_filename, YELLOW, BLUE, GREEN, RED, RESET, YAKPRO)
 from subprocess import call
+import shlex
 
 # Configure logging
 logging.basicConfig(filename=log_filename, level=logging.DEBUG, format='%(asctime)s %(levelname)s:%(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -42,7 +43,8 @@ def obfuscate_php(input_file, obfuscation_options, create_backup, output_directo
         output_file = os.path.join(output_directory, f"obfuscated_{os.path.basename(input_file)}")
         logging.info(f"Obfuscating {input_file}")
 
-        command = [YAKPRO] + obfuscation_options + [output_file, input_file]
+        # Use shlex.quote to handle paths with spaces or special characters
+        command = YAKPRO + obfuscation_options + [shlex.quote(output_file), shlex.quote(input_file)]
         call(command)
 
         print(f"{GREEN}Obfuscated file saved as {output_file}{RESET}")

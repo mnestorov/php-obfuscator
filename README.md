@@ -157,6 +157,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+:warning: **Important:** The paths specified in `config.py` (especially YAKPRO) are correct and point to the YakPro-Po obfuscator on your system. 
+
 1. Ensure you are in the project directory.
 2. Run the script
 
