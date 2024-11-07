@@ -217,8 +217,6 @@ If you find this script helpful and would like to support its development and ma
 
 - **_Donate_**: Show your appreciation with a small donation. Your support will help me maintain and enhance the script. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
 
----
-
 Your support is greatly appreciated and will help ensure all of the projects continued development and improvement. Thank you for being a part of the community!
 You can send me money on Revolut by following this link: https://revolut.me/mnestorovv
 
